@@ -51,8 +51,8 @@ document.body.appendChild(div);
  sakana.setAttribute("class", "sakana-box");
  // 将<div>标签添加到<body>元素中
  document.body.appendChild(sakana);
-
-const initSakana = document.createElement('script');
+setTimeout(()=>{
+ const initSakana = document.createElement('script');
 initSakana.innerHTML = `
 Sakana.setMute(true);
 Sakana.init({
@@ -61,6 +61,8 @@ Sakana.init({
   canSwitchCharacter: true,      // 允许换角色
 });`;
 document.body.appendChild(initSakana);
+},1000)
+
 
 
 
