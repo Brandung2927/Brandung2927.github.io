@@ -49,6 +49,14 @@
  // 将<div>标签添加到<body>元素中
  document.body.appendChild(sakana);
 
+Sakana.setMute(true);
+
+// 启动
+Sakana.init({
+  el:         '.sakana-box',     // 启动元素 node 或 选择器
+  scale:      .5,                // 缩放倍数
+  canSwitchCharacter: true,      // 允许换角色
+});
 
 
 
