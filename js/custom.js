@@ -41,8 +41,6 @@
 
 
 
-
-<script src="https://cdn.jsdelivr.net/npm/sakana@1.0.8"></script>
 const div = document.createElement('script');
  div.setAttribute("src", "https://cdn.jsdelivr.net/npm/sakana@1.0.8");
 document.body.appendChild(div);
