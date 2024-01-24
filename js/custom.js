@@ -41,9 +41,9 @@
 
 
 
-const div = document.createElement('script');
- div.setAttribute("src", "https://cdn.jsdelivr.net/npm/sakana@1.0.8");
-document.body.appendChild(div);
+// const div = document.createElement('script');
+//  div.setAttribute("src", "https://cdn.jsdelivr.net/npm/sakana@1.0.8");
+// document.body.appendChild(div);
 
  // 创建<div>标签
  const sakana = document.createElement("div");
@@ -51,17 +51,17 @@ document.body.appendChild(div);
  sakana.setAttribute("class", "sakana-box");
  // 将<div>标签添加到<body>元素中
  document.body.appendChild(sakana);
-setTimeout(()=>{
- const initSakana = document.createElement('script');
-initSakana.innerHTML = `
-Sakana.setMute(true);
-Sakana.init({
-  el:         '.sakana-box',     // 启动元素 node 或 选择器
-  scale:      .5,                // 缩放倍数
-  canSwitchCharacter: true,      // 允许换角色
-});`;
-document.body.appendChild(initSakana);
-},1000)
+// setTimeout(()=>{
+//  const initSakana = document.createElement('script');
+// initSakana.innerHTML = `
+// Sakana.setMute(true);
+// Sakana.init({
+//   el:         '.sakana-box',     // 启动元素 node 或 选择器
+//   scale:      .5,                // 缩放倍数
+//   canSwitchCharacter: true,      // 允许换角色
+// });`;
+// document.body.appendChild(initSakana);
+// },1000)
 
 
 
