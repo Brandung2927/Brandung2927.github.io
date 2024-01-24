@@ -38,3 +38,17 @@
 
  // 将<div>标签添加到<body>元素中
  document.body.appendChild(divElement);
+
+ // 创建<div>标签
+ var sakana = document.createElement("div");
+
+ // 设置class属性
+ sakana.setAttribute("class", "sakana-box");
+
+
+ // 将<div>标签添加到<body>元素中
+ document.body.appendChild(sakana);
+
+
+
+
