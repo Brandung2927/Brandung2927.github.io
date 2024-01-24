@@ -14,3 +14,11 @@
 #maomao:hover {
 	background-position: 60px 50%;
 }
+
+.sakana-box{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  
+  transform-origin: 100% 100%; /* 从右下开始变换 */
+}
