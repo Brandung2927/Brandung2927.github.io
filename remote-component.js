@@ -1,4 +1,4 @@
-export default {
+return {
   template: `
       <div>
         <h3>This is a remote component</h3>
