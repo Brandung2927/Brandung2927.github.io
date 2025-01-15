@@ -84,6 +84,18 @@
           }
         ]
       }
-    }
+    },
+    {
+      "version": "133.0.6943.6",
+      "revision": "1402768",
+      "downloads": {
+        "chromedriver": [
+          {
+            "platform": "win64",
+            "url": "https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.6/win64/chromedriver-win64.zip"
+          }
+        ]
+      }
+    }  
   ]
 }
